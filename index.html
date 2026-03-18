@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducción a la Programación</title>
+
+  <link rel="stylesheet" href="./css/estilos.css">
+  <link rel="stylesheet" href="./css/bootstrap_slate.css">
+  <link rel="stylesheet" href="./css/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+
+  <script src="./scripts/jQuery_v3_7_1.js"></script>
+  <script src="./scripts/bootstrap-5.3.5-dist/bootstrap.bundle.min.js"></script>
+  <script src="./scripts/inicio.js"></script>
+</head>
+
+<body>
+  <div class="container contenedor_principal">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg bg-primary fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img
+              src="https://i.ibb.co/q79zPHP/Torch-Crop.jpg"
+              alt="Logo" width="40" class="d-inline-block align-text-middle img-html-5"> Programación Front-End</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="menu" class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a id="nav-inicio" class="nav-link active" href="#">Inicio</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  HTML
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a id="nav-definiciones-html" class="dropdown-item" href="#">Definiciones HTML</a></li>
+                  <li><a id="nav-elementos-html" class="dropdown-item" href="#">Elementos HTML</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  CSS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a id="nav-definiciones-css" class="dropdown-item" href="#">Definiciones CSS</a></li>
+                  <li><a id="nav-propiedades-css" class="dropdown-item" href="#">Propiedades CSS</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a id="nav-links-interes" class="nav-link" href="#">Anexos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="row">
+        <div class="container col-sm-5 col-md-3 col-lg-3">
+          <div class="sidebar border-end sticky-top">
+            <div class="sidebar-header">
+              <div class="sidebar-brand">
+                <h3>Contenido</h3>
+              </div>
+            </div>
+            <br>
+
+            <div class="sidebar-header border-bottom">
+              <div class="sidebar-brand">HTML</div>
+            </div>
+            <ul class="sidebar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <i class="nav-icon cil-speedometer"></i> Definiciones HTML
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="nav-icon cil-speedometer"> Elementos HTML</i>
+                </a>
+              </li>
+            </ul>
+
+            <div class="sidebar-header border-bottom">
+              <div class="sidebar-brand">CSS</div>
+            </div>
+            <ul class="sidebar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">
+                  <i class="nav-icon cil-speedometer"></i> Definiciones CSS
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="nav-icon cil-speedometer"> Propiedades CSS</i>
+                </a>
+              </li>
+            </ul>
+
+            <div class="sidebar-header border-bottom">
+              <div class="sidebar-brand">Anexos</div>
+            </div>
+            <ul class="sidebar-nav">
+              <li class="nav-item nav-group show">
+                <a class="nav-link nav-group-toggle" href="#">
+                  <i class="nav-icon cil-puzzle"></i> Links de Interés
+                </a>
+              </li>
+            </ul>
+
+            <div class="sidebar-footer border-top d-flex">
+              <!-- <button class="sidebar-toggler" type="button"></button> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="container col-sm-7 col-md-9 col-lg-9">
+          <div id="inicio" class="row contenido_inicio">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

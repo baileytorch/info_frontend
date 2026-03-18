@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definiciones HTML</title>
+</head>
+
+<body>
+    <div id="definiciones_html" class="row contenido_definiciones_html">
+        <h1 class="display-4">Definiciones HTML</h1>
+        <div class="accordion" id="acordeon_definiciones">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_html" aria-expanded="true" aria-controls="colapsar_html">
+                        HTML
+                    </button>
+                </h2>
+                <div id="colapsar_html" class="accordion-collapse collapse show"
+                    data-bs-parent="#acordeon_definiciones">
+                    <div class="accordion-body">
+                        <p>
+                            <strong>El Lenguaje de Marcado de Hipertexto <code>&#60;HTML&#62;</code></strong> es el
+                            código
+                            que
+                            se utiliza para
+                            estructurar y desplegar una página web y sus contenidos.
+                        </p>
+                        <p>El lenguaje de marcado define la estructura del contenido. HTML consiste en una serie de
+                            elementos que se usarán para encerrar diferentes partes del contenido para que se vean o
+                            comporten
+                            de
+                            una determinada manera.</p>
+                        <img src="https://programacionweb1.wordpress.com/wp-content/uploads/2015/03/dibujo.jpg?w=321"
+                            class="img_elemento_html" alt="documento_html">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_elemento_html" aria-expanded="false"
+                        aria-controls="colapsar_elemento_html">
+                        Anatomía de un elemento HTML
+                    </button>
+                </h2>
+                <div id="colapsar_elemento_html" class="accordion-collapse collapse"
+                    data-bs-parent="#acordeon_definiciones">
+                    <div class="accordion-body">
+                        <p>Las partes principales de un elemento HTML son:</p>
+                        <ol>
+                            <li><strong>La etiqueta de apertura:</strong> consiste en el nombre del elemento,
+                                encerrado por paréntesis angulares (<>) de apertura y cierre. Establece dónde comienza o
+                                    empieza
+                                    a tener efecto el elemento.
+                            </li>
+                            <li><strong>La etiqueta de cierre:</strong> es igual que la etiqueta de apertura, excepto
+                                que
+                                incluye una barra de cierre (/) antes del nombre de la etiqueta. Establece dónde termina
+                                el
+                                elemento.</li>
+                            <li><strong>El contenido:</strong> este es el contenido visible del elemento.</li>
+                        </ol>
+                        <p>La etiqueta de apertura, junto con la etiqueta de cierre, más el contenido equivalen al
+                            elemento.
+                        </p>
+                        <img src="https://upanama.educativa.org/archivos/repositorio/6000/6207/html/etiq1.jpg"
+                            class="img_elemento_html" alt="etiqueta_html">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_atributos" aria-expanded="false" aria-controls="colapsar_atributos">
+                        Atributos de un elemento HTML
+                    </button>
+                </h2>
+                <div id="colapsar_atributos" class="accordion-collapse collapse"
+                    data-bs-parent="#acordeon_definiciones">
+                    <div class="accordion-body">
+                        <p>Los elementos pueden también tener atributos que contienen información adicional acerca del
+                            elemento.</p>
+                        <p>Las partes de un atributo son:</p>
+                        <ol>
+                            <li>Un espacio entre este y el nombre del elemento (o del atributo previo, si el elemento ya
+                                posee
+                                uno o más atributos).</li>
+                            <li>El nombre del atributo, seguido por un signo de igual (=).</li>
+                            <li>Comillas de apertura y de cierre, encerrando el valor del atributo.</li>
+                        </ol>
+                        <p>Los atributos siempre se incluyen en la etiqueta de apertura de un elemento, nunca en la de
+                            cierre.</p>
+                        <img src="https://www.apinem.com/wp-content/uploads/2024/03/ejemplo-atrbuto-HTML-y-su-valor.jpg"
+                            class="img_elemento_html" alt="etiqueta_html">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_anidar" aria-expanded="false" aria-controls="colapsar_anidar">
+                        Anidar elementos
+                    </button>
+                </h2>
+                <div id="colapsar_anidar" class="accordion-collapse collapse" data-bs-parent="#acordeon_definiciones">
+                    <div class="accordion-body">
+                        <p>Puedes también colocar elementos dentro de otros elementos, esto se llama anidamiento. Si,
+                            por
+                            ejemplo, quieres resaltar una palabra de un texto dentro de un párrafo, podemos
+                            encerrarla en un elemento <code>&#60;strong&#62;</code>, que significa que dicha palabra se
+                            debe
+                            enfatizar.</p>
+                        <p>Los elementos deben abrirse y cerrarse ordenadamente, de forma tal que se encuentren
+                            claramente
+                            dentro o fuera el uno del otro. Si estos se encuentran solapados, el navegador web tratará
+                            de
+                            adivinar lo que debe presentar, pero con resultados inesperados.</p>
+                        <img src="https://francescricart.com/wp-content/uploads/2019/02/anidar-etiquetas-1.jpg"
+                            class="img_elemento_html" alt="etiqueta_html">
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_vacios" aria-expanded="false" aria-controls="colapsar_vacios">
+                        Elementos vacíos
+                    </button>
+                </h2>
+                <div id="colapsar_vacios" class="accordion-collapse collapse" data-bs-parent="#acordeon_definiciones">
+                    <div class="accordion-body">
+                        <p>Algunos elementos no poseen contenido, y son llamados elementos vacíos. Toma, por ejemplo, el
+                            elemento <code>&#60;img&#62;</code>:</p>
+                        <div class="elemento_img text-center">
+                            &#60;img src&#61;&#34;ubicación_imagen&#34; alt&#61;&#34;texto a mostrar si no se carga la
+                            imagen&#34;&#62; IMAGEN &#60;&#47;img&#62;
+                        </div>
+                        <p>Posee dos atributos, pero no hay etiqueta de cierre <code>&#60;&#47;img&#62;</code> ni
+                            contenido
+                            encerrado. Esto es porque
+                            un elemento de imagen no encierra contenido al cual afectar. Su propósito es desplegar una
+                            imagen
+                            en la página HTML.</p>
+                        <p>Los elementos vacíos en HTML son los siguientes:</p>
+                        <div class="row">
+                            <div class="col">
+                                <ul>
+                                    <li><code>&#60;area&#62;</code></li>
+                                    <li><code>&#60;base&#62;</code></li>
+                                    <li><code>&#60;br&#62;</code></li>
+                                    <li><code>&#60;col&#62;</code></li>
+                                    <li><code>&#60;embed&#62;</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <ul>
+                                    <li><code>&#60;hr&#62;</code></li>
+                                    <li><code>&#60;img&#62;</code></li>
+                                    <li><code>&#60;input&#62;</code></li>
+                                    <li><code>&#60;link&#62;</code></li>
+                                    <li><code>&#60;meta&#62;</code></li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <ul>
+                                    <li><code>&#60;param&#62;</code></li>
+                                    <li><code>&#60;source&#62;</code></li>
+                                    <li><code>&#60;track&#62;</code></li>
+                                    <li><code>&#60;wbr&#62;</code></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_estructura_html" aria-expanded="false"
+                        aria-controls="colapsar_estructura_html">
+                        Anatomía de un documento HTML
+                    </button>
+                </h2>
+                <div id="colapsar_estructura_html" class="accordion-collapse collapse"
+                    data-bs-parent="#acordeon_definiciones">
+                    <div class="accordion-body">
+                        <p>Hasta ahora hemos revisado lo básico de elementos HTML individuales, pero estos no son muy
+                            útiles
+                            por
+                            sí solos, pero combinados son usados para formar una página HTML
+                            entera.</p>
+                        <img src="https://francescricart.com/wp-content/uploads/2018/02/estructura-documento-web-1.jpg"
+                            class="img_elemento_html" alt="página_html">
+                        <ul>
+                            <li>
+                                <p>
+                                    <code>&#60;&#33;DOCTYPE html&#62;</code> es el tipo de documento. Es un preámbulo
+                                    requerido.
+                                    Anteriormente, cuando HTML
+                                    era joven (cerca de 1991/2), los tipos de documento actuaban como vínculos a un
+                                    conjunto de
+                                    reglas que el código HTML de la página debía seguir para ser considerado bueno, lo
+                                    que podía
+                                    significar la verificación automática de errores y algunas otras cosas de utilidad.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <code>&#60;html&#62;&#60;&#47;html&#62;</code>. Este elemento encierra todo el
+                                    contenido de
+                                    la
+                                    página y, a veces, se le conoce como el elemento raíz (root element).
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <code>&#60;head&#62;&#60;&#47;head&#62;</code>. Este elemento actúa como un
+                                    contenedor de
+                                    todo
+                                    aquello que se pretende incluir en la
+                                    página HTML que no es contenido visible. Incluye cosas como
+                                    palabras clave (keywords), una descripción de la página que quieres que aparezca en
+                                    resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del
+                                    juego de
+                                    caracteres, scripts, etc.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <code>&#60;meta charset&#61;&#34;utf&#45;8&#34;&#62;</code>. Este elemento establece
+                                    el
+                                    juego
+                                    de caracteres que tu documento usará en utf-8, que
+                                    incluye casi todos los caracteres de todos los idiomas humanos.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <code>&#60;title&#62;&#60;&#47;title&#62;</code>. Establece el título de tu página,
+                                    que es
+                                    el
+                                    título que
+                                    aparece en la pestaña o en la barra de título del navegador cuando la página es
+                                    cargada, y
+                                    se usa para describir la página cuando es añadida a los marcadores o como favorita.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <code>&#60;body&#62;&#60;&#47;body&#62;</code> el CUERPO de la página. Encierra todo
+                                    el
+                                    contenido que deseas mostrar a los usuarios web que visiten tu
+                                    página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y
+                                    demás.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

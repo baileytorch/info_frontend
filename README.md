@@ -1,2 +1,2 @@
-# info_frontend
-Información relativa a Front-End, HTML, CSS y JS
+# info_html
+Página HTML con información de HTML, CSS, JavaScript y otros temas relacionados...

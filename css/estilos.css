@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+}
+
+.contenedor_principal {
+    margin-top: 5%;
+}
+
+.foto_personal {
+    display: table-cell;
+    max-width: 50%;
+    margin: auto;
+    padding-top: 5%;
+    border-radius: 50%;
+}
+
+.imagen_frontend {
+    max-height: 25%;
+    margin: 5%;
+}
+
+.tarjeta_docente {
+    padding-top: 10%;
+}
+
+.img_elemento_html {
+    margin: auto;
+    display: block;
+}
+
+.elemento_img {
+    background-color: white;
+    margin: 5%;
+    border: 1px solid;
+    color: black;
+    padding: 2%;
+}
+
+.img-html-5{
+    border-radius: 50%;
+}
+
+.sidebar-nav .nav-item{
+    margin-top: 15px;
+}

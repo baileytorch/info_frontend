@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Definiciones CSS</title>
+</head>
+
+<body>
+    <div id="definiciones_css" class="container contenido_definiciones_css">
+        <h1 class="display-4">Definiciones CSS</h1>
+        <p>Como HTML, CSS (Cascading Style Sheets) u Hojas de estilo en cascada, no es realmente un
+            lenguaje de programación, tampoco es un lenguaje de marcado. Es un lenguaje de hojas de estilo, es decir,
+            te permite aplicar estilos de manera selectiva a elementos en documentos HTML.</p>
+
+        <div class="accordion" id="acordeon_css">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_css_inline" aria-expanded="true" aria-controls="colapsar_css_inline">
+                        Agregar CSS inline
+                    </button>
+                </h2>
+                <div id="colapsar_css_inline" class="accordion-collapse collapse show" data-bs-parent="#acordeon_css">
+                    <div class="accordion-body">
+                        Con este método, las instrucciones de diseño se integran directamente en el código fuente
+                        aplicando
+                        el estilo en la etiqueta de apertura de un elemento HTML. Las propiedades deseadas solo se
+                        asignan a
+                        un elemento, de modo que es
+                        posible realizar diseños diferentes en todo el documento HTML.
+                        <div class="elemento_img text-center">
+                            <p>&#60;h1 <strong>style&#61;&#34;color&#58;blue&#59;
+                                    font-size&#58;14px&#59;&#34;</strong>&#62;Esto es un
+                                encabezado&#60;&#47;h1&#62;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#colapsar_css_cabecera" aria-expanded="false"
+                        aria-controls="colapsar_css_cabecera">
+                        Agregar CSS al principio del HTML
+                    </button>
+                </h2>
+                <div id="colapsar_css_cabecera" class="accordion-collapse collapse" data-bs-parent="#acordeon_css">
+                    <div class="accordion-body">
+                        En este caso, se incluye el CSS en la cabecera del documento HTML. La <strong>etiqueta de
+                            estilo</strong> se
+                        convierte así en <strong>parte del elemento de cabecera</strong> y se aplica a todo el archivo.
+                        Las
+                        instrucciones de
+                        diseño están contenidas en el documento, pero están separadas del código HTML.
+                        <div class="elemento_img text-center">
+                            <img src="https://baulderasec.wordpress.com/wp-content/uploads/2017/11/style_css_listado.png?w=640&h=318"
+                                alt="css_cabecera">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#integrar_css_externo" aria-expanded="false"
+                        aria-controls="integrar_css_externo">
+                        Integrar CSS en archivo externo
+                    </button>
+                </h2>
+                <div id="integrar_css_externo" class="accordion-collapse collapse" data-bs-parent="#acordeon_css">
+                    <div class="accordion-body">
+                        Este es posiblemente el mejor método para enlazar CSS en HTML. Un sitio web suele constar de
+                        muchas
+                        páginas, por lo que tiene sentido guardar las instrucciones de diseño en un archivo separado.
+                        Esto
+                        permite una separación limpia entre el contenido y el diseño y facilita el mantenimiento. El
+                        archivo
+                        exportado está simplemente vinculado al documento HTML. Se guarda la hoja de estilos externa con
+                        la
+                        extensión .css y luego se utiliza una <strong>etiqueta de enlace</strong> para incluirla en el
+                        archivo HTML.
+                        <div class="elemento_img text-center">
+                            <img src="https://comocreartuweb.com/imagenes/199-relacionar-archivo-de-estilo.gif"
+                                alt="css_externo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#componentes_css" aria-expanded="false" aria-controls="componentes_css">
+                        Componentes de un estilo CSS
+                    </button>
+                </h2>
+                <div id="componentes_css" class="accordion-collapse collapse" data-bs-parent="#acordeon_css">
+                    <div class="accordion-body">
+                        La estructura completa es llamada regla predeterminada.
+                        <div class="elemento_img text-center">
+                            <img src="http://ventics.com/wp-content/uploads/2011/02/f0101.gif"
+                                alt="estructura_regla_css">
+                        </div>
+                        <ul>
+                            <li><strong>Regla:</strong> cada uno de los estilos que componen una hoja de estilos CSS.
+                                Cada
+                                regla está compuesta
+                                de una parte de &#34;selectores&#34;, un símbolo de &#34;llave de apertura&#34;
+                                <code>&#123;</code> otra
+                                parte denominada &#34;declaración&#34; y por último, un símbolo de &#34;llave de
+                                cierre&#34;
+                                <code>&#125;</code>.
+                            </li>
+                            <li><strong>Selector:</strong> indica el elemento o elementos HTML a los que se aplica la
+                                regla
+                                CSS.</li>
+                            <li><strong>Declaración:</strong> especifica los estilos que se aplican a los elementos.
+                                Está
+                                compuesta por una o más propiedades CSS.</li>
+                            <li><strong>Propiedad:</strong> característica que se modifica en el elemento seleccionado,
+                                como
+                                por ejemplo su tamaño de letra, su color de fondo, etc.</li>
+                            <li><strong>Valor:</strong> establece el nuevo valor de la característica modificada en el
+                                elemento.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
